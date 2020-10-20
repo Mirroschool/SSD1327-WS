@@ -1,5 +1,5 @@
 #include "SSD1327_WS.h"
-#include "OLED_Font.h"
+#include "CP1251_Font.h"
 #include <Wire.h>
 
 SSD1327_WS_OLED::SSD1327_WS_OLED(): m_i2cAddr(0x3D), m_width(128), m_height(128) {}
